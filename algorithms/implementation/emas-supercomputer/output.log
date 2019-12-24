@@ -1,0 +1,1884 @@
+14 13
+### MATRIX ###
+[['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G'], ['G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G'], ['G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G'], ['B', 'B', 'G', 'G', 'B', 'G', 'G', 'B', 'B', 'G', 'G', 'G', 'B'], ['G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G', 'G']]
+### MAX PLUS LEN ###
+13
+Possible size 13
+Iterations:  1 0
+Centers:  [[6, 6], [7, 6]]
+Centers for size:  13  are:  [[6, 6], [7, 6]]
+Checking center:  [6, 6]  with extend:  6
+Checking point: [ 0 ][ 6 ] formerly G
+Checking point: [ 1 ][ 6 ] formerly G
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 11 ][ 6 ] formerly G
+Checking point: [ 12 ][ 6 ] formerly G
+Checking point: [ 6 ][ 0 ] formerly G
+Checking point: [ 6 ][ 1 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking point: [ 6 ][ 10 ] formerly G
+Checking point: [ 6 ][ 11 ] formerly G
+Checking point: [ 6 ][ 12 ] formerly G
+Found cross
+Result Cross:  {'val': 25, 'points': [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]}
+Checking center:  [6, 6]  with extend:  6
+Checking point: [ 0 ][ 6 ] formerly G
+Checking point: [ 1 ][ 6 ] formerly G
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 11 ][ 6 ] formerly G
+Checking point: [ 12 ][ 6 ] formerly G
+Checking point: [ 6 ][ 0 ] formerly G
+Checking point: [ 6 ][ 1 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking point: [ 6 ][ 10 ] formerly G
+Checking point: [ 6 ][ 11 ] formerly G
+Checking point: [ 6 ][ 12 ] formerly G
+Found cross
+Result Cross:  {'val': 25, 'points': [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]}
+First FOUND
+Checking center:  [7, 6]  with extend:  6
+Checking point: [ 1 ][ 6 ] formerly G
+Found overlap [1, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 2 ][ 6 ] formerly G
+Found overlap [2, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 11 ][ 6 ] formerly G
+Found overlap [11, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 12 ][ 6 ] formerly G
+Found overlap [12, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 13 ][ 6 ] formerly G
+Checking point: [ 7 ][ 0 ] formerly B
+Checking point: [ 7 ][ 1 ] formerly B
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking point: [ 7 ][ 11 ] formerly G
+Checking point: [ 7 ][ 12 ] formerly B
+Checking center:  [7, 6]  with extend:  6
+Checking point: [ 1 ][ 6 ] formerly G
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 11 ][ 6 ] formerly G
+Checking point: [ 12 ][ 6 ] formerly G
+Checking point: [ 13 ][ 6 ] formerly G
+Checking point: [ 7 ][ 0 ] formerly B
+Checking point: [ 7 ][ 1 ] formerly B
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking point: [ 7 ][ 11 ] formerly G
+Checking point: [ 7 ][ 12 ] formerly B
+Possible size 11
+Iterations:  3 2
+Centers:  [[6, 6], [7, 6]]
+Point [6, 6]
+Point [7, 6]
+MIN MAX 6 7 6 6
+Centers for size:  11  are:  [[5, 5], [5, 6], [5, 7], [6, 5], [6, 6], [6, 7], [7, 5], [7, 6], [7, 7], [8, 5], [8, 6], [8, 7]]
+Checking center:  [5, 5]  with extend:  5
+Checking point: [ 0 ][ 5 ] formerly G
+Checking point: [ 1 ][ 5 ] formerly G
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 5 ][ 0 ] formerly B
+Checking point: [ 5 ][ 1 ] formerly B
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking center:  [5, 5]  with extend:  5
+Checking point: [ 0 ][ 5 ] formerly G
+Checking point: [ 1 ][ 5 ] formerly G
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 5 ][ 0 ] formerly B
+Checking point: [ 5 ][ 1 ] formerly B
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking center:  [5, 6]  with extend:  5
+Checking point: [ 0 ][ 6 ] formerly G
+Found overlap [0, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 1 ][ 6 ] formerly G
+Found overlap [1, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 2 ][ 6 ] formerly G
+Found overlap [2, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 1 ] formerly B
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking point: [ 5 ][ 11 ] formerly G
+Checking center:  [5, 6]  with extend:  5
+Checking point: [ 0 ][ 6 ] formerly G
+Checking point: [ 1 ][ 6 ] formerly G
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 5 ][ 1 ] formerly B
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking point: [ 5 ][ 11 ] formerly G
+Checking center:  [5, 7]  with extend:  5
+Checking point: [ 0 ][ 7 ] formerly B
+Checking point: [ 1 ][ 7 ] formerly B
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking point: [ 5 ][ 11 ] formerly G
+Checking point: [ 5 ][ 12 ] formerly B
+Checking center:  [5, 7]  with extend:  5
+Checking point: [ 0 ][ 7 ] formerly B
+Checking point: [ 1 ][ 7 ] formerly B
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking point: [ 5 ][ 11 ] formerly G
+Checking point: [ 5 ][ 12 ] formerly B
+Checking center:  [6, 5]  with extend:  5
+Checking point: [ 1 ][ 5 ] formerly G
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 6 ][ 0 ] formerly G
+Found overlap [6, 0] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 1 ] formerly G
+Found overlap [6, 1] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 2 ] formerly G
+Found overlap [6, 2] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 10 ] formerly G
+Found overlap [6, 10] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 5]  with extend:  5
+Checking point: [ 1 ][ 5 ] formerly G
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 6 ][ 0 ] formerly G
+Checking point: [ 6 ][ 1 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking point: [ 6 ][ 10 ] formerly G
+Found cross
+Result Cross:  {'val': 21, 'points': [[1, 5], [2, 5], [3, 5], [4, 5], [5, 5], [6, 5], [7, 5], [8, 5], [9, 5], [10, 5], [11, 5], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10]]}
+Second FOUND
+Possible size 9
+Iterations:  5 4
+Centers:  [[6, 6], [7, 6]]
+Point [6, 6]
+Point [7, 6]
+MIN MAX 6 7 6 6
+Centers for size:  9  are:  [[5, 5], [5, 6], [5, 7], [6, 5], [6, 6], [6, 7], [7, 5], [7, 6], [7, 7], [8, 5], [8, 6], [8, 7]]
+Checking center:  [5, 5]  with extend:  4
+Checking point: [ 1 ][ 5 ] formerly G
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 5 ][ 1 ] formerly B
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking center:  [5, 5]  with extend:  4
+Checking point: [ 1 ][ 5 ] formerly G
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 5 ][ 1 ] formerly B
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking center:  [5, 6]  with extend:  4
+Checking point: [ 1 ][ 6 ] formerly G
+Found overlap [1, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 2 ][ 6 ] formerly G
+Found overlap [2, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking center:  [5, 6]  with extend:  4
+Checking point: [ 1 ][ 6 ] formerly G
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking center:  [5, 7]  with extend:  4
+Checking point: [ 1 ][ 7 ] formerly B
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking point: [ 5 ][ 11 ] formerly G
+Checking center:  [5, 7]  with extend:  4
+Checking point: [ 1 ][ 7 ] formerly B
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking point: [ 5 ][ 11 ] formerly G
+Checking center:  [6, 5]  with extend:  4
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 6 ][ 1 ] formerly G
+Found overlap [6, 1] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 2 ] formerly G
+Found overlap [6, 2] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 5]  with extend:  4
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 6 ][ 1 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Found cross
+Result Cross:  {'val': 17, 'points': [[2, 5], [3, 5], [4, 5], [5, 5], [6, 5], [7, 5], [8, 5], [9, 5], [10, 5], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9]]}
+Checking center:  [6, 6]  with extend:  4
+Checking point: [ 2 ][ 6 ] formerly G
+Found overlap [2, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 2 ] formerly G
+Found overlap [6, 2] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 10 ] formerly G
+Found overlap [6, 10] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 6]  with extend:  4
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking point: [ 6 ][ 10 ] formerly G
+Found cross
+Result Cross:  {'val': 17, 'points': [[2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10]]}
+Checking center:  [6, 7]  with extend:  4
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 10 ] formerly G
+Found overlap [6, 10] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 11 ] formerly G
+Found overlap [6, 11] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 7]  with extend:  4
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking point: [ 6 ][ 10 ] formerly G
+Checking point: [ 6 ][ 11 ] formerly G
+Checking center:  [7, 5]  with extend:  4
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 7 ][ 1 ] formerly B
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking center:  [7, 5]  with extend:  4
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 7 ][ 1 ] formerly B
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking center:  [7, 6]  with extend:  4
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 11 ][ 6 ] formerly G
+Found overlap [11, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking center:  [7, 6]  with extend:  4
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 11 ][ 6 ] formerly G
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking center:  [7, 7]  with extend:  4
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 11 ][ 7 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking point: [ 7 ][ 11 ] formerly G
+Checking center:  [7, 7]  with extend:  4
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 11 ][ 7 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking point: [ 7 ][ 11 ] formerly G
+Checking center:  [8, 5]  with extend:  4
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 12 ][ 5 ] formerly G
+Checking point: [ 8 ][ 1 ] formerly B
+Checking point: [ 8 ][ 2 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking center:  [8, 5]  with extend:  4
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 12 ][ 5 ] formerly G
+Checking point: [ 8 ][ 1 ] formerly B
+Checking point: [ 8 ][ 2 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking center:  [8, 6]  with extend:  4
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 11 ][ 6 ] formerly G
+Found overlap [11, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 12 ][ 6 ] formerly G
+Found overlap [12, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 2 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking point: [ 8 ][ 10 ] formerly G
+Checking center:  [8, 6]  with extend:  4
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 11 ][ 6 ] formerly G
+Checking point: [ 12 ][ 6 ] formerly G
+Checking point: [ 8 ][ 2 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking point: [ 8 ][ 10 ] formerly G
+Checking center:  [8, 7]  with extend:  4
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 11 ][ 7 ] formerly G
+Checking point: [ 12 ][ 7 ] formerly B
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking point: [ 8 ][ 10 ] formerly G
+Checking point: [ 8 ][ 11 ] formerly G
+Checking center:  [8, 7]  with extend:  4
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 11 ][ 7 ] formerly G
+Checking point: [ 12 ][ 7 ] formerly B
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking point: [ 8 ][ 10 ] formerly G
+Checking point: [ 8 ][ 11 ] formerly G
+Possible size 7
+Iterations:  7 6
+Centers:  [[6, 6], [7, 6]]
+Point [6, 6]
+Point [7, 6]
+MIN MAX 6 7 6 6
+Centers for size:  7  are:  [[5, 5], [5, 6], [5, 7], [6, 5], [6, 6], [6, 7], [7, 5], [7, 6], [7, 7], [8, 5], [8, 6], [8, 7]]
+Checking center:  [5, 5]  with extend:  3
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking center:  [5, 5]  with extend:  3
+Checking point: [ 2 ][ 5 ] formerly G
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 5 ][ 2 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking center:  [5, 6]  with extend:  3
+Checking point: [ 2 ][ 6 ] formerly G
+Found overlap [2, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking center:  [5, 6]  with extend:  3
+Checking point: [ 2 ][ 6 ] formerly G
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking center:  [5, 7]  with extend:  3
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking center:  [5, 7]  with extend:  3
+Checking point: [ 2 ][ 7 ] formerly B
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking point: [ 5 ][ 10 ] formerly G
+Checking center:  [6, 5]  with extend:  3
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Found overlap [6, 2] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 5]  with extend:  3
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 6 ][ 2 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Found cross
+Result Cross:  {'val': 13, 'points': [[3, 5], [4, 5], [5, 5], [6, 5], [7, 5], [8, 5], [9, 5], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8]]}
+Checking center:  [6, 6]  with extend:  3
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 6]  with extend:  3
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Found cross
+Result Cross:  {'val': 13, 'points': [[3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9]]}
+Checking center:  [6, 7]  with extend:  3
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 10 ] formerly G
+Found overlap [6, 10] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 7]  with extend:  3
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking point: [ 6 ][ 10 ] formerly G
+Checking center:  [7, 5]  with extend:  3
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking center:  [7, 5]  with extend:  3
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 7 ][ 2 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking center:  [7, 6]  with extend:  3
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking center:  [7, 6]  with extend:  3
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking center:  [7, 7]  with extend:  3
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking center:  [7, 7]  with extend:  3
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking point: [ 7 ][ 10 ] formerly G
+Checking center:  [8, 5]  with extend:  3
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 8 ][ 2 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking center:  [8, 5]  with extend:  3
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 11 ][ 5 ] formerly G
+Checking point: [ 8 ][ 2 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking center:  [8, 6]  with extend:  3
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 11 ][ 6 ] formerly G
+Found overlap [11, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking center:  [8, 6]  with extend:  3
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 11 ][ 6 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking center:  [8, 7]  with extend:  3
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 11 ][ 7 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking point: [ 8 ][ 10 ] formerly G
+Checking center:  [8, 7]  with extend:  3
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 11 ][ 7 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking point: [ 8 ][ 10 ] formerly G
+Possible size 5
+Iterations:  9 8
+Centers:  [[6, 6], [7, 6]]
+Point [6, 6]
+Point [7, 6]
+MIN MAX 6 7 6 6
+Centers for size:  5  are:  [[5, 5], [5, 6], [5, 7], [6, 5], [6, 6], [6, 7], [7, 5], [7, 6], [7, 7], [8, 5], [8, 6], [8, 7]]
+Checking center:  [5, 5]  with extend:  2
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking center:  [5, 5]  with extend:  2
+Checking point: [ 3 ][ 5 ] formerly G
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 5 ][ 3 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking center:  [5, 6]  with extend:  2
+Checking point: [ 3 ][ 6 ] formerly G
+Found overlap [3, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking center:  [5, 6]  with extend:  2
+Checking point: [ 3 ][ 6 ] formerly G
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking center:  [5, 7]  with extend:  2
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking center:  [5, 7]  with extend:  2
+Checking point: [ 3 ][ 7 ] formerly B
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking point: [ 5 ][ 9 ] formerly G
+Checking center:  [6, 5]  with extend:  2
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Found overlap [6, 3] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 5]  with extend:  2
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 6 ][ 3 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Found cross
+Result Cross:  {'val': 9, 'points': [[4, 5], [5, 5], [6, 5], [7, 5], [8, 5], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7]]}
+Checking center:  [6, 6]  with extend:  2
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 6]  with extend:  2
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Found cross
+Result Cross:  {'val': 9, 'points': [[4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8]]}
+Checking center:  [6, 7]  with extend:  2
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 9 ] formerly G
+Found overlap [6, 9] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 7]  with extend:  2
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking point: [ 6 ][ 9 ] formerly G
+Checking center:  [7, 5]  with extend:  2
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking center:  [7, 5]  with extend:  2
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 7 ][ 3 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking center:  [7, 6]  with extend:  2
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking center:  [7, 6]  with extend:  2
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking center:  [7, 7]  with extend:  2
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking center:  [7, 7]  with extend:  2
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking point: [ 7 ][ 9 ] formerly G
+Checking center:  [8, 5]  with extend:  2
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking center:  [8, 5]  with extend:  2
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 10 ][ 5 ] formerly G
+Checking point: [ 8 ][ 3 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking center:  [8, 6]  with extend:  2
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 10 ][ 6 ] formerly G
+Found overlap [10, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking center:  [8, 6]  with extend:  2
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 10 ][ 6 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking center:  [8, 7]  with extend:  2
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Checking center:  [8, 7]  with extend:  2
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 10 ][ 7 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking point: [ 8 ][ 9 ] formerly G
+Possible size 3
+Iterations:  11 10
+Centers:  [[6, 6], [7, 6]]
+Point [6, 6]
+Point [7, 6]
+MIN MAX 6 7 6 6
+Centers for size:  3  are:  [[5, 5], [5, 6], [5, 7], [6, 5], [6, 6], [6, 7], [7, 5], [7, 6], [7, 7], [8, 5], [8, 6], [8, 7]]
+Checking center:  [5, 5]  with extend:  1
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [5, 5]  with extend:  1
+Checking point: [ 4 ][ 5 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 5 ][ 4 ] formerly B
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking center:  [5, 6]  with extend:  1
+Checking point: [ 4 ][ 6 ] formerly G
+Found overlap [4, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking center:  [5, 6]  with extend:  1
+Checking point: [ 4 ][ 6 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking center:  [5, 7]  with extend:  1
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking center:  [5, 7]  with extend:  1
+Checking point: [ 4 ][ 7 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 5 ][ 8 ] formerly B
+Checking center:  [6, 5]  with extend:  1
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Found overlap [6, 4] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 5]  with extend:  1
+Checking point: [ 5 ][ 5 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 6 ][ 4 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Found cross
+Result Cross:  {'val': 5, 'points': [[5, 5], [6, 5], [7, 5], [6, 4], [6, 5], [6, 6]]}
+Checking center:  [6, 6]  with extend:  1
+Checking point: [ 5 ][ 6 ] formerly G
+Found overlap [5, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 6]  with extend:  1
+Checking point: [ 5 ][ 6 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Found cross
+Result Cross:  {'val': 5, 'points': [[5, 6], [6, 6], [7, 6], [6, 5], [6, 6], [6, 7]]}
+Checking center:  [6, 7]  with extend:  1
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 6 ][ 8 ] formerly G
+Found overlap [6, 8] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [6, 7]  with extend:  1
+Checking point: [ 5 ][ 7 ] formerly B
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 6 ][ 8 ] formerly G
+Checking center:  [7, 5]  with extend:  1
+Checking point: [ 6 ][ 5 ] formerly G
+Found overlap [6, 5] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [7, 5]  with extend:  1
+Checking point: [ 6 ][ 5 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 7 ][ 4 ] formerly B
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking center:  [7, 6]  with extend:  1
+Checking point: [ 6 ][ 6 ] formerly G
+Found overlap [6, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking center:  [7, 6]  with extend:  1
+Checking point: [ 6 ][ 6 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking center:  [7, 7]  with extend:  1
+Checking point: [ 6 ][ 7 ] formerly G
+Found overlap [6, 7] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking center:  [7, 7]  with extend:  1
+Checking point: [ 6 ][ 7 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 7 ][ 8 ] formerly B
+Checking center:  [8, 5]  with extend:  1
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking center:  [8, 5]  with extend:  1
+Checking point: [ 7 ][ 5 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 9 ][ 5 ] formerly G
+Checking point: [ 8 ][ 4 ] formerly B
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking center:  [8, 6]  with extend:  1
+Checking point: [ 7 ][ 6 ] formerly G
+Found overlap [7, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 9 ][ 6 ] formerly G
+Found overlap [9, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking center:  [8, 6]  with extend:  1
+Checking point: [ 7 ][ 6 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 9 ][ 6 ] formerly G
+Checking point: [ 8 ][ 5 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking center:  [8, 7]  with extend:  1
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Found overlap [8, 6] [[0, 6], [1, 6], [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6], [9, 6], [10, 6], [11, 6], [12, 6], [6, 0], [6, 1], [6, 2], [6, 3], [6, 4], [6, 5], [6, 6], [6, 7], [6, 8], [6, 9], [6, 10], [6, 11], [6, 12]]
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+Checking center:  [8, 7]  with extend:  1
+Checking point: [ 7 ][ 7 ] formerly B
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 9 ][ 7 ] formerly G
+Checking point: [ 8 ][ 6 ] formerly G
+Checking point: [ 8 ][ 7 ] formerly B
+Checking point: [ 8 ][ 8 ] formerly B
+525
