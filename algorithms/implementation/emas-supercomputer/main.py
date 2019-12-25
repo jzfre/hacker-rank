@@ -6,191 +6,115 @@ import random
 import re
 import sys
 
-# A LITTLE BIT OPTIMIZED ALGORITHM
-# TRIES TO FOUND TWO BIGGEST PLUSES / CROSSES THEN STOPS
-# THIS CAN WORK BETTER ON 
-# 289
 
-def findBiggestPossibleSize(rows_cnt, cols_cnt):
-    max_plus_len = -1
+def checkPlus(grid, center_x, center_y):
+    # rows count of the grid
+    rows_cnt = len(grid)
+    # cols count of the grid
+    cols_cnt = len(grid[0])
 
-    if rows_cnt > cols_cnt:
-        if (rows_cnt % 2):
-            max_plus_len = rows_cnt
-        else:
-            max_plus_len = rows_cnt - 1
-    else:
-        if (cols_cnt % 2):
-            max_plus_len = cols_cnt
-        else:
-            max_plus_len = cols_cnt - 1
+    max_size_top = center_y
+    max_size_right = (cols_cnt - 1) - center_y
+    max_size_bottom = (rows_cnt - 1) - center_x
+    max_size_left = center_x
 
-    return max_plus_len
+    max_size = min(max_size_top, max_size_right,
+                   max_size_bottom, max_size_left)
+    print('Max size for plus: ', max_size)
 
-
-def computeAvailableCenters(rows_cnt, cols_cnt, possible_size):
-    centers = []
-
-    rows_iterations_cnt = rows_cnt - possible_size
-    cols_iterations_cnt = cols_cnt - possible_size
-    print('Iterations: ', rows_iterations_cnt, cols_iterations_cnt)
-
-    row_absolute_middle = 0
-    col_absolute_middle = 0
-
-    # get absolute middle for X
-    if (rows_cnt % 2):
-        row_absolute_middle = [math.ceil(rows_cnt / 2) - 1]
-    else:
-        tmp = int(rows_cnt / 2)
-        row_absolute_middle = [tmp - 1, tmp]
-
-    # get absolute middle for Y
-    if (cols_cnt % 2):
-        col_absolute_middle = [math.ceil(cols_cnt / 2) - 1]
-    else:
-        tmp = int(cols_cnt / 2)
-        col_absolute_middle = [tmp - 1, tmp]
-
-    # put this result into our array
-    # if size of maxtrix is even x odd OR odd x even
-    if (len(row_absolute_middle) != len(col_absolute_middle)):
-        if (len(row_absolute_middle) > 1):
-            centers.append([row_absolute_middle[0], col_absolute_middle[0]])
-            centers.append([row_absolute_middle[1], col_absolute_middle[0]])
-        else:
-            centers.append([row_absolute_middle[0], col_absolute_middle[0]])
-            centers.append([row_absolute_middle[0], col_absolute_middle[1]])
-    else:
-        # are matrix is odd x odd
-        if (len(row_absolute_middle) > 1):
-            centers.append([row_absolute_middle[0], col_absolute_middle[0]])
-            centers.append([row_absolute_middle[0], col_absolute_middle[1]])
-            centers.append([row_absolute_middle[1], col_absolute_middle[0]])
-            centers.append([row_absolute_middle[1], col_absolute_middle[1]])
-        else:
-            centers.append([row_absolute_middle[0], col_absolute_middle[0]])
-
-    print('Centers: ', centers)
-
-    if (rows_iterations_cnt > 1) or (cols_iterations_cnt > 1):
-        return expandByOuterSize(centers)
-
-    return centers
-
-
-def expandByOuterSize(centers):
-
-    result = []
-
-    # becuase max size of an array is 15
-    min_row = 15
-    min_col = 15
-    max_row = 0
-    max_col = 0
-
-    for point in centers:
-        print('Point', point)
-        if (point[0] > max_row):
-            max_row = point[0]
-        if (point[0] < min_row):
-            min_row = point[0]
-        if (point[1] > max_col):
-            max_col = point[1]
-        if (point[0] < min_col):
-            min_col = point[1]
-
-    # generate other points
-    print('MIN MAX', min_row, max_row, min_col, max_col)
-
-    for i in range(min_row - 1, max_row + 2):
-        for j in range(min_col - 1, max_col + 2):
-            result.append([i, j])
-
-    return result
-
-
-def checkPlus(center, possiblesize, grid, except_points=False):
-    extend_by = math.floor(possiblesize / 2)
+    # just a temp value, we will expect we will find a valid plus
     expectation = True
-    result = { "val": 1, "points": []}
-    print('Checking center: ', center, ' with extend: ', extend_by)
-    for x in range(center[0] - extend_by, center[0] + extend_by + 1):
-        print('Checking point: [', x, '][', center[1], '] formerly', grid[x][center[1]])
-        if except_points and [x, center[1]] in except_points:
-          print('Found overlap', [x, center[1]], except_points)
-          expectation = False
-        result["points"].append([x, center[1]])
-        if (grid[x][center[1]] != 'G'):
+    plus = {"size": 1, "center": [center_x, center_y],
+            "points": [[center_x, center_y]]}
+    # check vertical line
+    print('Processing vertical line:')
+    for idx in range(center_x - max_size, (center_x + 1) + max_size):
+        print('Processing point: [', idx,  '][', center_y,
+              '] with value: ', grid[idx][center_y])
+        if grid[idx][center_y] != 'G':
             expectation = False
+            break
+        else:
+            if [idx, center_y] not in plus["points"]:
+                plus["points"].append([idx, center_y])
 
-    for y in range(center[1] - extend_by, center[1] + extend_by + 1):
-        print('Checking point: [', center[0], '][', y, '] formerly', grid[center[0]][y])
-        if except_points and [center[0], y] in except_points:
-          print('Found overlap', [center[0], y], except_points)
-          expectation = False
-        result["points"].append([center[0], y])
-        if (grid[center[0]][y] != 'G'):
-            expectation = False
-    if not expectation:
-      return expectation
+    # check horizontal line
+    if (expectation):
+        print('Processing horizontal line:')
+        for idx in range(center_y - max_size, (center_y + 1) + max_size):
+            print('Processing point: [', center_x,  '][',
+                  idx, '] with value: ', grid[center_x][idx])
+            if grid[center_x][idx] != 'G':
+                expectation = False
+                break
+            else:
+                if [center_x, idx] not in plus["points"]:
+                    plus["points"].append([center_x, idx])
 
-    print('Found cross')  
-    result["val"] = (2 * possiblesize) - 1
-    print('Result Cross: ', result)
-    return result
+    if expectation:
+        plus["size"] = (4 * max_size) + 1
+        return plus
 
-# Complete the twoPluses function below.
+    return False
+
+
+def areNotOverlaping(first, second):
+    for i in first["points"]:
+        for j in second["points"]:
+            if i == j:
+                return False
+    return True
+
+
+def processPluses(pluses):
+    # there is only one plus, we can return it
+    if len(pluses) == 1:
+        return pluses[0]["size"]
+
+    max_size = 1
+
+    # we need to check every plus with every one, check overlapping
+    for first in pluses:
+        for second in pluses:
+            # check if they are overlap
+            if areNotOverlaping(first, second):
+                print(f'Pluses [{first["center"][0]},{first["center"][1]}] and [{second["center"][0]},{second["center"][1]}] are not overlapping')
+                tmp_max_size = first["size"] * second["size"]
+                if tmp_max_size > max_size:
+                    max_size = tmp_max_size
+
+    return max_size
 
 
 def twoPluses(grid):
     print('### MATRIX ###')
     print(grid)
 
+    # rows count of the grid
     rows_cnt = len(grid)
+    # cols count of the grid
     cols_cnt = len(grid[0])
 
-    print('### MAX PLUS LEN ###')
-    max_possible_size = findBiggestPossibleSize(rows_cnt, cols_cnt)
-    print(max_possible_size)
+    pluses = []
 
-    # try to find two biggest pluses
-    first_plus = { "val": 1, "points": []}
-    second_plus = { "val": 1, "points": []}
+    # we are going to find all possible pluses with size > 5
+    # we are not processing border points
+    for x in range(1, rows_cnt - 1):
+        for y in range(1, cols_cnt - 1):
+                # skip if value is BAD, this cant be cross
+            print('Processing center [', x, '][', y, ']')
+            if grid[x][y] == 'G':
+                result = checkPlus(grid, x, y)
+                if result:
+                    pluses.append(result)
 
-    # try to find plus with horizontal/vertical size 7, then 5 ... until size 3
-    # as you can see step is -2, there is no need to find size 1 as this results to
-    # result 1 :):
-
-    for possible_size in range(max_possible_size, 1, -2):
-        print('Possible size', possible_size)
-        centers = computeAvailableCenters(rows_cnt, cols_cnt, possible_size)
-        print('Centers for size: ', possible_size, ' are: ', centers)
-
-        for center in centers:
-
-            if first_plus["val"] == 1:
-              plus_result = checkPlus(center, possible_size, grid)
-            else:
-              plus_result = checkPlus(center, possible_size, grid, first_plus["points"])
-
-            plus_result = checkPlus(center, possible_size, grid)
-
-            if (plus_result) and (first_plus["val"] == 1):
-                first_plus = plus_result
-                print('First FOUND');
-                continue
-            if (plus_result) and (second_plus["val"] == 1):
-                second_plus = plus_result
-                print('Second FOUND')
-                break
-
-
-    return first_plus["val"] * second_plus["val"]
+    print('Pluses:')
+    print(pluses)
+    return processPluses(pluses)
 
 
 if __name__ == '__main__':
-    fptr = open('./data/input02.txt', 'r')
+    fptr = open('./data/input04.txt', 'r')
 
     nm = fptr.readline().split()
     n = int(nm[0])
