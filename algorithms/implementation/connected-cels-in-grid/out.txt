@@ -1,0 +1,285 @@
+Checking outer index: -1, 0
+Checking outer index: -1, 1
+Checking outer index: 0, 1
+Appending to 'toProc': [[0, 0], [0, 1]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1]]
+Checking outer index: 1, 0
+Checking outer index: 1, -1
+Checking outer index: 0, -1
+Checking outer index: -1, -1
+Checking outer index: -1, 1
+Checking outer index: -1, 2
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2]]
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2]]
+Checking outer index: -1, 0
+Checking outer index: 0, 1
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2]]
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2]]
+Checking outer index: 2, 2
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+Checking outer index: 2, 1
+Checking outer index: 2, 0
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+Checking outer index: 0, 2
+Checking outer index: 0, 3
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 2, 2
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+Checking outer index: 1, 2
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 3, 3
+Checking outer index: 3, 2
+Checking outer index: 3, 1
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]]
+--------- Used&Size: [[0, 0], [0, 1], [1, 1], [1, 2], [2, 2]] 5
+Checking outer index: -1, 1
+Checking outer index: -1, 2
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[0, 1], [1, 2]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1]]
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0]]
+Checking outer index: -1, 0
+Checking outer index: 0, 2
+Checking outer index: 0, 3
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 2, 2
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 2, 2
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 2, 1
+Checking outer index: 2, 0
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: -1, 0
+Checking outer index: -1, 1
+Checking outer index: 0, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 1, 0
+Checking outer index: 1, -1
+Checking outer index: 0, -1
+Checking outer index: -1, -1
+Checking outer index: 1, 2
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 3, 3
+Checking outer index: 3, 2
+Checking outer index: 3, 1
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]]
+--------- Used&Size: [[0, 1], [1, 2], [1, 1], [0, 0], [2, 2]] 5
+Checking outer index: 0, 1
+Appending to 'toProc': [[1, 1], [0, 1]]
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2]]
+Checking outer index: 2, 2
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2]]
+Checking outer index: 2, 1
+Checking outer index: 2, 0
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: -1, 1
+Checking outer index: -1, 2
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: -1, 0
+Checking outer index: 0, 2
+Checking outer index: 0, 3
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 2, 2
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 1, 2
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 3, 3
+Checking outer index: 3, 2
+Checking outer index: 3, 1
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: -1, 0
+Checking outer index: -1, 1
+Checking outer index: 0, 1
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]]
+Checking outer index: 1, 0
+Checking outer index: 1, -1
+Checking outer index: 0, -1
+Checking outer index: -1, -1
+--------- Used&Size: [[1, 1], [0, 1], [1, 2], [2, 2], [0, 0]] 5
+Checking outer index: 0, 2
+Checking outer index: 0, 3
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 2, 2
+Appending to 'toProc': [[1, 2], [2, 2]]
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1]]
+Checking outer index: 1, 2
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1]]
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 3, 3
+Checking outer index: 3, 2
+Checking outer index: 3, 1
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1]]
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1]]
+Checking outer index: 2, 2
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1]]
+Checking outer index: 2, 1
+Checking outer index: 2, 0
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: -1, 1
+Checking outer index: -1, 2
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: -1, 0
+Checking outer index: -1, 0
+Checking outer index: -1, 1
+Checking outer index: 0, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 0
+Checking outer index: 1, -1
+Checking outer index: 0, -1
+Checking outer index: -1, -1
+--------- Used&Size: [[1, 2], [2, 2], [1, 1], [0, 1], [0, 0]] 5
+Checking outer index: 1, 2
+Appending to 'toProc': [[2, 2], [1, 2]]
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 3, 3
+Checking outer index: 3, 2
+Checking outer index: 3, 1
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1]]
+Checking outer index: 0, 2
+Checking outer index: 0, 3
+Checking outer index: 1, 3
+Checking outer index: 2, 3
+Checking outer index: 2, 2
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1]]
+Checking outer index: 2, 1
+Checking outer index: 1, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1]]
+Checking outer index: 0, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1]]
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1]]
+Checking outer index: 2, 2
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1]]
+Checking outer index: 2, 1
+Checking outer index: 2, 0
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: -1, 1
+Checking outer index: -1, 2
+Checking outer index: 0, 2
+Checking outer index: 1, 2
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 0
+Checking outer index: 0, 0
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: -1, 0
+Checking outer index: -1, 0
+Checking outer index: -1, 1
+Checking outer index: 0, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 1
+Appending to 'toProc': [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]]
+Checking outer index: 1, 0
+Checking outer index: 1, -1
+Checking outer index: 0, -1
+Checking outer index: -1, -1
+--------- Used&Size: [[2, 2], [1, 2], [1, 1], [0, 1], [0, 0]] 5
+Checking outer index: 2, 0
+Checking outer index: 2, 1
+Checking outer index: 3, 1
+Checking outer index: 4, 1
+Checking outer index: 4, 0
+Checking outer index: 4, -1
+Checking outer index: 3, -1
+Checking outer index: 2, -1
+--------- Used&Size: [[3, 0]] 1
+Result: [0, 5, 5, 5, 5, 5, 1]
