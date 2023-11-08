@@ -1,31 +1,44 @@
 #!/bin/python3
 
-import math
-import os
-import random
-import re
 import sys
 
-#
-# Complete the 'acmTeam' function below.
-#
-# The function is expected to return an INTEGER_ARRAY.
-# The function accepts STRING_ARRAY topic as parameter.
-#
-
+# bruteforces
 def acmTeam(topic):
-    # Write your code here
-    for idx, bn in enumerate(topic):
-        num = int(bn, 2)
-        print(idx, num)
-    # 1 1 1 1 1  -> 1 + 2 + 4 + 8 + 16 -> 0 - 31 => 32 kombinacii 
-    # 11000 - 24
-    # 00111 - 7
+    # Convert the binary string to integers first
+    topic_ints = [int(member, 2) for member in topic]
+    top_topics = 0
+    top_teams = 0
 
+    for idx in range(len(topic_ints)):
+        for jdx in range(idx + 1, len(topic_ints)):
+            count_ones = bin(topic_ints[idx] | topic_ints[jdx]).count('1')
+            
+            if count_ones > top_topics:
+                top_topics = count_ones
+                top_teams = 1
+            elif count_ones == top_topics:
+                top_teams += 1
 
+    return [top_topics, top_teams]
 
 if __name__ == '__main__':
-    topic = ['10101', '11110', '00010']
+    fptr = sys.stdout
+
+    first_multiple_input = input().rstrip().split()
+
+    n = int(first_multiple_input[0])
+
+    m = int(first_multiple_input[1])
+
+    topic = []
+
+    for _ in range(n):
+        topic_item = input()
+        topic.append(topic_item)
 
     result = acmTeam(topic)
-    print(result)
+
+    fptr.write('\n'.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
